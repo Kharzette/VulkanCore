@@ -34,42 +34,6 @@ Cons:
 
 Vulkan-capable graphics hardware and drivers are required to run the samples. Win32 samples are based on WinForms (.NET Framework) and Android ones on Xamarin (Mono).
 
-<table>
-  <tr>
-    <td><img src="Assets/ClearScreen.jpg" alt="ClearScreen"></td>
-    <td>
-      <a href="Samples/Shared/01-ClearScreen">ClearScreen</a>
-      <p>Sets up a window and clears it to a solid color</p>
-    </td>
-  </tr>
-  <tr>
-    <td><img src="Assets/ColoredTriangle.jpg" alt="ColoredTriangle"></td>
-    <td>
-      <a href="Samples/Shared/02-ColoredTriangle">ColoredTriangle</a>
-      <p>Renders a colored triangle defined in a vertex shader</p>
-    </td>
-  </tr>
-  <tr>
-    <td><img src="Assets/TexturedCube.jpg" alt="TexturedCube"></td>
-    <td>
-      <a href="Samples/Shared/03-TexturedCube">TexturedCube</a>
-      <p>Creates a rotating textured cube mesh</p>
-    </td>
-  </tr>
-  <tr>
-    <td><img src="Assets/ComputeParticles.jpg" alt="ComputeParticles"></td>
-    <td>
-      <a href="Samples/Shared/04-ComputeParticles">ComputeParticles</a>
-      <p>Simulates 2D particles using a compute shader</p>
-    </td>
-  </tr>
-</table>
-
-## Tests <img height="24" src="Assets/Windows64.png"> <img height="24" src="Assets/Ubuntu64.png">
-
-In order to provide a certain level of *functional correctness*, the project aims to achieve *full statement coverage* for the *core API*. Tests are built using [xUnit](https://xunit.github.io/) and .NET Core and have been tested on Ubuntu and Windows platforms.
-
-Note that it's difficult to test vendor specific extensions due to requirements for specialized hardware/drivers - therefore, covering them at this point is not planned.
 
 ## Related Work
 

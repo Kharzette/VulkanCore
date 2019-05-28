@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Src\VulkanCore.csproj" />
+    <ProjectReference Include="..\Src\VulkanCore.csproj" />
   </ItemGroup>
 
 </Project>
